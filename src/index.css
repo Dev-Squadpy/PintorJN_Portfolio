@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Paint drip animation */
+@keyframes paintDrip {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.paint-drip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(90deg, #1e3a8a 0%, #3b82f6 50%, #1e3a8a 100%);
+  animation: paintDrip 1.5s ease-in-out forwards;
+  clip-path: polygon(
+    0% 0%, 
+    5% 10%, 
+    10% 0%, 
+    15% 5%, 
+    20% 0%, 
+    25% 3%, 
+    30% 0%, 
+    35% 7%, 
+    40% 0%, 
+    45% 3%, 
+    50% 0%, 
+    55% 5%, 
+    60% 0%, 
+    65% 8%, 
+    70% 0%, 
+    75% 4%, 
+    80% 0%, 
+    85% 6%, 
+    90% 0%, 
+    95% 2%, 
+    100% 0%, 
+    100% 100%, 
+    0% 100%
+  );
+}
