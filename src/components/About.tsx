@@ -33,10 +33,11 @@ const About: React.FC = () => {
     <section id="sobre-mí" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Sobre Mí</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Pintor Profesional en Paraguay - José Luis Núñez</h2>
           <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Conozca más sobre mi trayectoria y compromiso con la calidad.
+            Pintor profesional con más de 8 años de experiencia en Encarnación y todo Paraguay. 
+            Servicio de pintura confiable y garantizado para casas, departamentos y locales.
           </p>
         </div>
         
@@ -55,16 +56,17 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-bold text-blue-900 mb-4">José Luis Núñez</h3>
             <p className="text-lg text-gray-600 mb-6">
-              Con más de 8 años de experiencia en el sector, he dedicado mi carrera 
-              profesional a ofrecer servicios de pintura de la más alta calidad. Mi pasión 
-              por este oficio y el compromiso con mis clientes me han permitido trabajar 
-              en una amplia variedad de proyectos, desde pequeñas renovaciones hasta 
-              grandes obras comerciales.
+              Pintor profesional con más de 8 años de experiencia en Encarnación, Paraguay. 
+              Me he especializado en servicios de pintura interior y exterior para casas, 
+              departamentos y locales comerciales en todo el país. Mi pasión por este oficio 
+              y el compromiso con mis clientes me han permitido trabajar en una amplia variedad 
+              de proyectos de pintura en Asunción, Encarnación, Ciudad del Este y todo Paraguay.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Mi filosofía es simple: cada proyecto merece atención meticulosa, 
-              materiales de primera calidad y un acabado perfecto. Me enorgullece 
-              transformar espacios y superar las expectativas de mis clientes.
+              Mi filosofía es simple: cada proyecto de pintura merece atención meticulosa, 
+              materiales de primera calidad y un acabado perfecto. Como pintor confiable 
+              y económico en Paraguay, me enorgullece transformar espacios y superar las 
+              expectativas de mis clientes con trabajos garantizados.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

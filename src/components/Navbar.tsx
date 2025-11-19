@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
           </a>
           
           <div className="hidden md:flex space-x-8">
-            {['Inicio', 'Servicios', 'Trabajos', 'Testimonios', 'Sobre Mí', 'Contacto'].map((item) => (
+            {['Inicio', 'Servicios', 'Trabajos', 'Sobre Mí', 'Contacto'].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-md animate-fadeIn">
           <div className="flex flex-col space-y-3">
-            {['Inicio', 'Servicios', 'Trabajos', 'Testimonios', 'Sobre Mí', 'Contacto'].map((item) => (
+            {['Inicio', 'Servicios', 'Trabajos', 'Sobre Mí', 'Contacto'].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase().replace(' ', '-')}`}

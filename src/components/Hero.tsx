@@ -18,12 +18,13 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="animate-fadeIn">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Transformamos Espacios<br />
-            <span className="text-yellow-400">Con Pintura Profesional</span>
+            Pintor Profesional en Paraguay<br />
+            <span className="text-yellow-400">Servicio de Pintura Garantizado</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto mb-10">
-            Más de 8 años de experiencia brindando servicios de pintura
-            de la más alta calidad en interiores y exteriores.
+            Pintor profesional con más de 8 años de experiencia en pintura de casas, 
+            departamentos y locales en Encarnación y todo Paraguay. Pintura interior y exterior 
+            con trabajos garantizados. Precios económicos y servicio confiable.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">

@@ -10,26 +10,26 @@ interface Benefit {
 const benefits: Benefit[] = [
   {
     id: 1,
-    title: "Experiencia Comprobada",
-    description: "Más de 8 años en pintura de interiores y exteriores, con técnicas modernas y resultados de alta calidad.",
+    title: "Experiencia Comprobada Paraguay",
+    description: "Más de 8 años como pintor profesional en Encarnación y todo Paraguay. Experiencia comprobada en pintura de interiores y exteriores con técnicas modernas, materiales de primera y resultados de alta calidad garantizados.",
     icon: "🏆"
   },
   {
     id: 2,
-    title: "Puntualidad y Seriedad",
-    description: "Cumplimos los plazos acordados y trabajamos de forma ordenada, cuidando cada detalle.",
+    title: "Puntualidad y Seriedad Garantizada",
+    description: "Cumplimos los plazos acordados y trabajamos de forma ordenada y profesional. Pintor confiable y serio en Paraguay que respeta su tiempo y entrega trabajos de pintura puntualmente.",
     icon: "⏰"
   },
   {
     id: 3,
-    title: "Materiales de Primera",
-    description: "Usamos pinturas y herramientas profesionales para garantizar acabados duraderos.",
+    title: "Materiales de Primera Calidad",
+    description: "Usamos pinturas y herramientas profesionales de primera marca para garantizar acabados duraderos y de calidad superior en cada proyecto de pintura. Materiales importados y nacionales de excelencia.",
     icon: "🎨"
   },
   {
     id: 4,
-    title: "Presupuesto Claro",
-    description: "Sin costos ocultos, todo explicado desde el inicio.",
+    title: "Presupuesto Claro y Económico",
+    description: "Sin costos ocultos, todo explicado desde el inicio. Ofrecemos precios económicos y competitivos en Paraguay. Presupuestos detallados y transparentes para pintura de casas y locales.",
     icon: "💰"
   }
 ];
@@ -72,10 +72,11 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 animate-expand">
-            ¿Por qué elegir nuestros servicios?
+            ¿Por qué elegir nuestro servicio de pintura en Paraguay?
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up">
-            Descubre por qué somos la opción preferida para proyectos de pintura profesional
+            Descubre por qué somos la opción preferida de pintores profesionales en Encarnación y todo Paraguay. 
+            Servicio de pintura garantizado con más de 8 años de experiencia.
           </p>
         </div>
 

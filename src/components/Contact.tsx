@@ -91,10 +91,12 @@ const Contact: React.FC = () => {
     <section id="contacto" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Contacto</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Contacto - Pintor Profesional Paraguay</h2>
           <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            ¿Tiene un proyecto en mente? Contáctenos para obtener un presupuesto sin compromiso.
+            Servicio de pintura profesional en Encarnación y todo Paraguay. 
+            Solicita tu presupuesto gratuito para pintura de casas, departamentos y locales. 
+            Pintor económico y confiable con trabajos garantizados.
           </p>
         </div>
 
@@ -130,14 +132,14 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-blue-900">Ubicación</h4>
-                    <p className="text-gray-600">Encarnación, Paraguay</p>
+                    <p className="text-gray-600">Encarnación, Paraguay - Servicio en todo el país</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-blue-900 text-white p-8 rounded-xl shadow-md">
-              <h3 className="text-2xl font-bold mb-4">Horario de Atención</h3>
+              <h3 className="text-2xl font-bold mb-4">Horario de Atención - Pintor Paraguay</h3>
               <div className="space-y-2">
                 <p className="flex justify-between">
                   <span>Lunes - Viernes:</span>
@@ -164,7 +166,9 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-blue-900 mb-3">¡Mensaje Enviado!</h3>
                 <p className="text-gray-600 mb-6">
-                  Gracias por contactarnos. Nos pondremos en contacto con usted a la brevedad.
+                  Pintor profesional con 8+ años de experiencia en Encarnación, Asunción, 
+                  Ciudad del Este y todo Paraguay. Servicio de pintura garantizado 
+                  para casas, departamentos y locales comerciales.
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, ArrowUp, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowUp } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -19,14 +19,6 @@ const Footer: React.FC = () => {
               Servicios profesionales de pintura con más de 8 años de experiencia.
               Calidad y excelencia en cada proyecto.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="bg-blue-800 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-blue-800 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -71,11 +63,6 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#trabajos" className="text-blue-200 hover:text-white transition-colors duration-200">
                   Portafolio
-                </a>
-              </li>
-              <li>
-                <a href="#testimonios" className="text-blue-200 hover:text-white transition-colors duration-200">
-                  Testimonios
                 </a>
               </li>
               <li>
